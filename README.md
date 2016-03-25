@@ -16,3 +16,9 @@ To build the examples make sure you have a recent version of CUDA loaded into yo
 	- CPU-version  
 	- Single-block-GPU-version
 	- tiled-GPU-version
+2. matrix-multiply
+	- cpu-version
+	- naive
+	- tiled	 
+	- shared-memory
+3. multi-gpu
