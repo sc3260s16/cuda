@@ -9,3 +9,10 @@ You'll be prompted for your password, which is the same password you use to acce
 To build the examples make sure you have a recent version of CUDA loaded into your environment:
 
 	setpkgs -a cuda7.0
+
+## Suggested Order
+
+1. vector-addition
+	- CPU-version  
+	- Single-block-GPU-version
+	- tiled-GPU-version
