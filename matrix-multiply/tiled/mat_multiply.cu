@@ -74,9 +74,9 @@ int main(int argc, char ** argv)
    cudaMemcpy(h_C,d_C,size,cudaMemcpyDeviceToHost);
 
    // output results
-   for (i=0;i<SIZE*SIZE;i++) {
-      printf("i: %d h_C[i]: %f\n",i,h_C[i]);
-   }
+   //for (i=0;i<SIZE*SIZE;i++) {
+   //   printf("i: %d h_C[i]: %f\n",i,h_C[i]);
+   //}
 
    // Free up device memory
    cudaFree(d_A);

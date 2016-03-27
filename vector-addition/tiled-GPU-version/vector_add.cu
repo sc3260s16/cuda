@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SIZE 1000024
+#define SIZE 1000000
 #define BLOCKSIZE 32
 
 // Device function (i.e. kernel)
